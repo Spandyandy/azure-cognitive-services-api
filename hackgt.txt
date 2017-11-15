@@ -1,0 +1,43 @@
+microsoft-cognitive-services
+
+음식점 
+스타벅스 이름 물어볼때 처음방문때만 물어보고 다음 부턴 "누구누구씨 맞으시죠?"
+
+
+단골 몇번 최근 방문
+트랜스크립트
+애칭 이름
+특이사항 우당분해 알러지 베지테리언 무슬림 종교
+자주시키는 메뉴
+tomato
+향후 관계 손님 연 가족관계 등등
+**********번역
+
+
+질문과 그에따른 대답을 기록 질문은 삭제
+
+
+
+Step 1
+if(face.exist())
+	Identify
+else
+	Add 
+
+
+Step 2
+if(face.exist())
+	Console.Write (Name, 몇번방문, 최근방문, 알러지특이사항, 자주시키는메뉴, extra);
+	Record (몇번방문++;, 최근방문 = today.date; 특이사항, 자주시키는메뉴 += 뭐더얘기하면);
+else
+	Record (Name = listenName, 몇번방문 = 1; 최근방문 = today.date, 특이사항, 자주시키는메뉴 = 얘기);
+
+
+
+
+
+
+
+Q. What's your **name**? 
+A. My name is gasd gsdagwe.	//Record the whole Answer.
+
